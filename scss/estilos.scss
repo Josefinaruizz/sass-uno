@@ -1,0 +1,90 @@
+//variables
+
+$color-principal: f3f3f3;
+$ancho-principal: 20px;
+
+@import "utilities/variables" ;
+
+.header {
+    color: $color-principal;
+    font-size: 27px;
+    padding: 10px;
+
+/* Tipografía general */
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF; }
+  }
+  /* Footer */
+footer
+ {width: 100%;
+    background: var(--lav);
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  .anchoFooter {margin-top: 30px;
+  }
+  .redes 
+  {display: inline-block;
+  }
+  .bi-facebook {font-size: 30px;text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  .bi-facebook:hover
+  {color: #ED8B8B ;
+  }
+  .bi-whatsapp 
+  {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px
+    ;color: #fff;
+  }
+  .bi-whatsapp:hover
+  {color: #25d366;
+  }.bi-instagram
+  {font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  .bi-instagram:hover
+  {color: #ED8B8B ;
+  }
+}
+  .container-fluidd {
+  overflow:auto ;
+  .footer{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: bold;
+    
+    
+  }
+  }
+  main {
+      .pColor {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+    font-size: 30px;
+    align-items: center;
+  }
+  :root 
+  {--lav-light: #f2deff;
+  --lav: #D99090 ;}
+}
+  
+  
