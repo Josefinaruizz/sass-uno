@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.header {
+  color: f3f3f3;
+  font-size: 27px;
+  padding: 10px;
+  /* Tipografía general */ }
+  .header .bigicon {
+    font-size: 35px;
+    color: #36A0FF; }
+
+/* Footer */
+footer {
+  width: 100%;
+  background: var(--lav);
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center; }
+  footer .anchoFooter {
+    margin-top: 30px; }
+  footer .redes {
+    display: inline-block; }
+  footer .bi-facebook {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff; }
+  footer .bi-facebook:hover {
+    color: #ED8B8B; }
+  footer .bi-whatsapp {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff; }
+  footer .bi-whatsapp:hover {
+    color: #25d366; }
+  footer .bi-instagram {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff; }
+  footer .bi-instagram:hover {
+    color: #ED8B8B; }
+
+.container-fluidd {
+  overflow: auto; }
+  .container-fluidd .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold; }
+
+main .pColor {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+  align-items: center; }
+
+main :root {
+  --lav-light: #f2deff;
+  --lav: #D99090 ; }
