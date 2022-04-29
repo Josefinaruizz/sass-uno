@@ -1,4 +1,13 @@
 @charset "UTF-8";
+/* Variables*/
+:root {
+  --lav-light: #f2deff;
+  --lav: #D99090 ; }
+
+main {
+  width: 500px;
+  height: 50px; }
+
 .header {
   color: f3f3f3;
   font-size: 27px;

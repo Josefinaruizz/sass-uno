@@ -1,0 +1,33 @@
+//variables
+
+$color-principal: f3f3f3;
+$ancho-principal: 20px;
+$insta: #581845; 
+$wp: #25d366 ;
+$fb: blue;
+
+
+/* Variables*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Variables*/
+:root 
+{--lav-light: #f2deff;
+--lav: #D99090 ;}
+/* Tipografía general */
+body 
+{font-family: raleway;
+}
+
+
+@mixin size ($widht, $height) {
+    width: $widht;
+    height: $height;
+}
+ main{
+     @include size(500px, 50px )
+ }
+

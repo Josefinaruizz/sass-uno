@@ -1,4 +1,9 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .header {
   color: f3f3f3;
   font-size: 27px;
@@ -8,6 +13,7 @@
     font-size: 35px;
     color: #36A0FF; }
 
+
 /* Footer */
 footer {
   width: 100%;
@@ -16,9 +22,9 @@ footer {
   margin-top: 0px;
   display: flex;
   justify-content: center; }
-  footer .anchoFooter {
+footer .anchoFooter {
     margin-top: 30px; }
-  footer .redes {
+ footer .redes {
     display: inline-block; }
   footer .bi-facebook {
     font-size: 30px;
@@ -26,24 +32,28 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
     color: #fff; }
-  footer .bi-facebook:hover {
-    color: #ED8B8B; }
-  footer .bi-whatsapp {
+footer .bi-facebook:hover {
+    color: blue; }
+footer .bi-whatsapp {
     font-size: 30px;
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
     color: #fff; }
-  footer .bi-whatsapp:hover {
+footer .bi-whatsapp:hover {
     color: #25d366; }
-  footer .bi-instagram {
+footer .bi-instagram {
     font-size: 30px;
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
     color: #fff; }
-  footer .bi-instagram:hover {
-    color: #ED8B8B; }
+ footer .bi-instagram:hover {
+    color: #581845; }
+    :root 
+{--lav-light: #f2deff;
+--lav: #D99090 ;}
+}
 
 .container-fluidd {
   overflow: auto; }
@@ -56,7 +66,8 @@ footer {
     padding-top: 20px;
     font-weight: bold; }
 
-main .pColor {
+main 
+.pColor {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -67,3 +78,72 @@ main .pColor {
 main :root {
   --lav-light: #f2deff;
   --lav: #D99090 ; }
+}
+
+   main .sobreMi {
+    background-color: #f0e2e2;
+    padding: 10px 30px;
+    margin: 10px 40px;
+    border: 2px solid black;
+    opacity: 0.9;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  main .sobremi2 img {
+    width: 360px;
+    height: 450px;
+    top: 30px;
+    left: 40px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .yo {
+    text-align: center;
+  }
+  .logo :hoover{
+    transform: scale(1.2);
+  }
+}
+.video-y-texto {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+  h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  .truco {
+    background-color: #f0e2e2;
+    padding: 10px 30px;
+    margin: 10px 40px;
+    border: 2px solid black;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  
+  }
+  .trucoUno {
+    background-color: #f0e2e2;
+    padding: 10px 30px;
+    margin: 10px 40px;
+    border: 2px solid black;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .trucoTres {
+    padding: 10px 30px;
+    margin: 10px 40px;
+  
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: #ad5252;
+    border: 2px solid black;
+    opacity: 0.9;
+  }
