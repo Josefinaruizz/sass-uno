@@ -73,7 +73,8 @@ main
   justify-content: center;
   margin-bottom: 50px;
   font-size: 30px;
-  align-items: center; }
+  align-items: center;
+ }
 
 main :root {
   --lav-light: #f2deff;
