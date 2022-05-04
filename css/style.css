@@ -88,8 +88,9 @@ main :root {
     border: 2px solid black;
     opacity: 0.9;
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bolder;
+  
   }
   main .sobremi2 img {
     width: 360px;
@@ -98,6 +99,7 @@ main :root {
     left: 40px;
     margin: 5px;
     padding: 5px;
+    
   }
   .yo {
     text-align: center;
@@ -119,6 +121,8 @@ main :root {
     text-align: center;
     font-size: 45px;
   }
+
+
   .truco {
     background-color: #f0e2e2;
     padding: 10px 30px;
