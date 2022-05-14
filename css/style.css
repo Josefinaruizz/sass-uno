@@ -81,7 +81,8 @@ main :root {
   --lav: #D99090 ; }
 }
 
-   main .sobreMi {
+   main 
+   .sobreMi {
     background-color: #f0e2e2;
     padding: 10px 30px;
     margin: 10px 40px;
